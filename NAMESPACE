@@ -1,0 +1,5 @@
+useDynLib(gtsp)
+import(methods, Rcpp)
+importFrom(Rcpp, evalCpp)
+importFrom(RcppParallel, RcppParallelLibs)
+exportPattern("^[[:alpha:]]+")
